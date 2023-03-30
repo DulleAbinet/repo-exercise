@@ -1,0 +1,178 @@
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    padding: 5px 15px;
+    /* margin: 2px; */
+    /* border:2px solid red; */
+    
+    /* Photo by <a href="https://unsplash.com/@cristofer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cristofer Maximilian</a> on <a href="https://unsplash.com/s/photos/motivational?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+}
+.logo {
+    justify-self: flex-start ;
+    text-align: center;
+
+}
+.navigation {
+    display: flex;
+    flex: 1 1 0;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: #e5e7eb;
+
+}
+.navigation > ul {
+    display: flex;
+    justify-content: right;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    font: 18px;
+    color: #e5e7eb;
+    list-style: none;
+    text-decoration-line: none;
+    text-decoration: none;
+    lighting-color: #e5e7eb;
+
+}
+.webandimage {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.webdiscription {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 0%;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+.webdiscription > h2 {
+    font-size: 48px;
+    font-style: extra bold;
+    color: #f9faf8;
+}
+.imgdiscription {
+    padding: 0;
+    flex: 1 1 0;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-bottom: 50px;
+    margin-right: 50px;
+    background-color: rgb(68, 67, 67);
+
+}
+#button {
+    justify-self: start;
+    max-width:max-content;
+    margin-left: 15px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 0;
+    border-radius: 5px;
+
+}
+.mains {
+    display: flex;
+    flex-direction: column;
+    
+    padding-right: 0%;
+    padding-left: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.firstA {
+    display: block;
+    text-align: center;
+}
+.firstA > .headerA {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-wrap: nowrap;
+    /* border: 2px solid #3882f6; */
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    box-sizing: border-box;
+}
+ article {
+    justify-content: center;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+    width: auto;
+    height: 100px;
+    margin: 2px;
+ }
+.secondB {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.secondB > h4 {
+    display: flex;
+    justify-content: end;
+    align-content:flex-start;
+}
+.thirdC {
+    background-color: #3882f6;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mains >.thirdC > div > #button2 {
+    justify-self: center;
+    align-content: end;
+    background-color:inherit;
+    border-color: azure;
+    border-radius: 5px;
+    color: inherit;
+    padding-bottom: 0;
+    justify-self: flex-end;
+    align-self: flex-end;
+    /* justify-self: start;
+    max-width:max-content;
+    margin-left: 15px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 0;
+    border-radius: 5px; */
+
+}
+.mains >.thirdC > div {
+    padding: 15px;
+}
+.footers {
+    background-color: #1f2937;
+    text-align: center;
+}
