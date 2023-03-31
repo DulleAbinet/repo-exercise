@@ -20,6 +20,7 @@
 }
 .navigation {
     display: flex;
+    margin-left:0;
     flex: 1 1 0;
     color: #e5e7eb;
     flex-wrap: wrap;
@@ -35,7 +36,8 @@
 }
 .navigation > ul {
     display: flex;
-    justify-content: right;
+    justify-content:end;
+    justify-item: right;
     flex: 1 1 0;
     flex-wrap: wrap;
     font: 18px;
@@ -45,6 +47,9 @@
     text-decoration: none;
     lighting-color: #e5e7eb;
 
+}
+.navigation > ul > li {
+    margin: 0;
 }
 .webandimage {
     padding-top: 30px;
