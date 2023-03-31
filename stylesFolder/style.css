@@ -4,23 +4,21 @@
     align-content: center;
     margin-left: auto;
     margin-right: auto;
-    /* margin: 0;
-    padding: 0; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px 15px;
-    /* margin: 2px; */
-    /* border:2px solid red; */
-    
     /* Photo by <a href="https://unsplash.com/@cristofer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cristofer Maximilian</a> on <a href="https://unsplash.com/s/photos/motivational?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
 }
 .logo {
-    justify-self: flex-start ;
+    justify-item: flex-start ;
     text-align: center;
+    padding-left: 0;
 
 }
 .navigation {
     display: flex;
-    margin-left:0;
+    margin-left: 0;
+    margin-right: 0;
     flex: 1 1 0;
     color: #e5e7eb;
     flex-wrap: wrap;
